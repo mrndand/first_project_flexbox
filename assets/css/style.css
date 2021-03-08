@@ -5,6 +5,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #ebcaca;
 }
 
 header {
@@ -146,4 +147,17 @@ nav .active a, nav a:hover {
     border-bottom: solid 1px #e97b9c;
     margin-top: 20px;
     padding: 5px;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+}
+
+#content section {
+    flex: 2;
+}
+
+#content aside {
+    flex: 1;
 }
