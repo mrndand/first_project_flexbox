@@ -85,7 +85,6 @@ nav .active a, nav a:hover {
     max-width: 350px;
     color: #ebcaca;
     font-size: 50px;
-    text-shadow: 0px 1px 0px #b3365b;
 }
 
 .banner_headline h2 {
@@ -95,7 +94,6 @@ nav .active a, nav a:hover {
     margin-top: 30px;
     color: #ebcaca;
     font-size: 19px;
-    text-shadow: 0px 1px 0px #b3365b;
 }
 
 .banner_options {
@@ -160,4 +158,70 @@ nav .active a, nav a:hover {
 
 #content aside {
     flex: 1;
+}
+
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text {
+    color: #031c32;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget_title_bar {
+    width: 50px;
+    height: 2px;
+    background-color: #b3365b;
+    margin-top: 10px;
+}
+
+.wid_desc {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.wid_row {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wid_exemple {
+    background-color: #b3365b;
+    width: 140px;
+    height: 140px;
+}
+
+.widget_body {
+    color: #031c32;
+}
+
+.widget_contact {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 0px -1px 0px #253e53;
+}
+
+.widget_contact a img {
+    width: 20px;
+    height: 20px;
+    padding-right: 5px;
+}
+
+.widget_contact p {
+    display: flex;
+    align-items: center;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+p a {
+    text-decoration: underline;
+    color: #031c32;
+    font-weight: bold;
+    padding: 0px 3px;
 }
